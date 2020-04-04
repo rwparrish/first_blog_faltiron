@@ -1,11 +1,11 @@
 # Site settings
 author: Ryan Parrish
-title: 
+title: Why I chose to change careers and become a software engineer.
 header-img: img/home-bg.png
 email: rino3717@gmail.com
 copyright_name: Ryan Parrish
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Changing careers at 34 years old
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  rwparrish
