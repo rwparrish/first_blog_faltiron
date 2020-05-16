@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Finding the joy in sloving one problem at a time"
+title:      "Finding the joy in solving one problem at a time"
 date:       2020-05-16 16:53:07 -0400
 permalink:  finding_the_joy_in_sloving_one_problem_at_a_time
 ---
