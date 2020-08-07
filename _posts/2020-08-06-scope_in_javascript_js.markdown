@@ -42,7 +42,7 @@ function orderPizza() {
 orderPizza();
 ```
 
-Both **function scope** and **block scope** are considered to be local scopes. Variables defined in a local scope are 'visible', and therefore executable, only in a specific part of your code. 
+Both **function scope** and **block scope** are considered to be *local scopes*. Variables defined in a *local scope* are 'visible', and therefore executable, only in a specific part of your code. 
 
 Let’s first look at an example of **function scope:**
 ```
