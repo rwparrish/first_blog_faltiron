@@ -16,7 +16,7 @@ There are three levels of scope in JavaScript (JS).
 
 Let's take a look at each of these scopes in this read.
 
-Global scope is the outer most scope in JS. Any variable defined outside of `{}`'s (not in a function) lives in global scope. Variables defined in global scope are "visible" anywhere in the application file. For example:
+**Global scope** is the outer most scope in JS. Any variable defined outside of `{}`'s (not in a function) lives in global scope. Variables defined in global scope are "visible" anywhere in the application file. For example:
 ```
 let pizzaDough = 'brooklyn style'
 
