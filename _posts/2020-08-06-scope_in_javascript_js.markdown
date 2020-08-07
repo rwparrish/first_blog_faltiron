@@ -14,7 +14,7 @@ There are three levels of scope in JavaScript (JS).
 **2. Function Scope** <br>
 **3. Block Scope**
 
-Let's take a look at each of these scopes in this read.
+Let's take a look at each of these scopes in this read. I'd like to quickly point out that I will be using the same code snippet throughout this read. Please make sure to look for the comments in the code snippets. I did this intentionally because we are discussing scope, context and the scope chain. Check for those comments! 
 
 **Global scope** is the outer most scope in JS. Any variable defined outside of `{}`'s (not in a function) lives in global scope. Variables defined in global scope are "visible" anywhere in the application file. 
 
