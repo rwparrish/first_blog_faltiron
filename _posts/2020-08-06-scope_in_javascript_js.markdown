@@ -69,7 +69,9 @@ orderPizza();
 ```
 
 Before we look at an example of **block scope**, I would first like to breifly discuss the scope chain in JS. 
-When resolving variables, inner functions first look at their own scope. If the variable is not assigned locally (inside the aforementioned inner function's scope), then JS will look at the outer context of said function for the variable's value. In the code below, we can see an example of this in action. Go ahead and try running this code yourself! You should see the following output:
+When resolving variables, inner functions first look at their own scope. If the variable is not assigned locally (inside the aforementioned inner function's scope), then JS will look at the outer context of said function for the variable's value. Earlier we saw that vairiables defined in **global scope** are "visible" anywhere in the application file. It is beacuase of the scope chain that this is true! A final note on the scope chain: scope chaining is unidirectional. This means that JS will chain in only one direction; from inner most context(**function scope** in the example below) to outer most context(always**global scope**).
+
+In the code below, we can see an example of this in action. Go ahead and try running this code yourself! You should see the following output:
 ```
 let pizzaDough = 'brooklyn style'
 
@@ -97,9 +99,7 @@ In the above code, the function `pizzaToppings` first looks inside its own scope
 
 ![](https://i.imgur.com/CGnMgx7m.png)
 
-Lastly, **block scope** is the area within conditional statements and interations. For example, if statements and for loops. It's worth noting that scope chaining applies to the block scope too and in the same manner we've seen above. 
-
-A final note on the scope chain: scope chaining is unidirectional. This means that JS will chain in only one direction; from inner most context to outer most context. 
+Lastly, **block scope** is the area within conditional statements and interations. For example, if statements and for loops. It's worth noting that scope chaining applies to the block scope too and in the same manner we've seen above.  
 
 Pretty neat huh!? Now, hopefully you understand a bit more about scope and scope chain in JS.
 
