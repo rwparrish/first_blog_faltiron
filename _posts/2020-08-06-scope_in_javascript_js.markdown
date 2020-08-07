@@ -58,8 +58,6 @@ function orderPizza() {
   function pizzaToppings() {
     const cheese = 'mozzarella'
 
-
-   
     return pizzaDough + ' with ' + sauce + ' and ' + cheese + ' please!'
     
   }
