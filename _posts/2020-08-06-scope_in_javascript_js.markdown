@@ -105,7 +105,7 @@ orderPizza();
 
 Let's break down what happens when the code is run. In the above code, the function `pizzaToppings` first looks inside its own scope for the values to the variables: `pizzaDough` `sauce` and `cheese`. It sees that `cheese` is assigned a value of "mozzarella" but it cannot see the assigned values for the other two variables, yet. JS then checks `pizzaToppings`'s outer context (`orderPizza`'s context in this case) and sees the assigned value for `sauce`: "marinara". Finally, JS continues up the scope chain to find the assigned value for `pizzaDough`: "brooklyn style". 
 
-Lastly, **block scope** is the area within conditional statements and interations. For example, if statements and for loops. It's worth noting that scope chaining applies to the block scope too and in the same manner we've seen above.  
+Lastly, **block scope** is the area within conditional statements and interations; for example: if statements and for loops. It's worth noting that scope chaining applies to the block scope too and in the same manner we've seen above.  
 
 Pretty neat huh!? Now, hopefully you understand a bit more about scope and scope chain in JS.
 
