@@ -6,7 +6,7 @@ permalink:  scope_in_javascript_js
 ---
 
 
-What is scope? According to Merriam-Webster, scope is space or opportunity for unhampered motion, activity, or thought. Merriam-Webster also defines it as the extent of treatment, activity, or influence. Scope in computer science terms is defined as the region of a computer program where the binding is valid: where the name can be used to refer to the entity. According MDN (javascript documentation) - “scope is the current context of execution. The context in which values and expressions are 'visible' or can be referenced.”
+What is scope? According to Merriam-Webster, scope is space or opportunity for unhampered motion, activity, or thought. Merriam-Webster also defines it as the extent of treatment, activity, or influence. Scope in computer science terms is defined as the region of a computer program where the binding is valid: where the name can be used to refer to the entity. According MDN (JavaScript documentation) - “scope is the current context of execution. The context in which values and expressions are 'visible' or can be referenced.”
 
 There are three levels of scope in JavaScript (JS).
 
