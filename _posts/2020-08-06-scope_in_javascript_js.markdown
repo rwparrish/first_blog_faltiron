@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Scope in JavaScript(JS)"
-date:       2020-08-07 00:12:30 +0000
+date:       2020-08-06 20:12:31 -0400
 permalink:  scope_in_javascript_js
 ---
 
