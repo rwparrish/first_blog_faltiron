@@ -22,7 +22,7 @@ For example:
 ```
 let pizzaDough = 'brooklyn style'
 
-// pizzaDough lives in global scope (notice it is defined outside of any function). You can ignore the rest of this code for now.
+// The variable pizzaDough lives in global scope (notice it is defined outside of any function). You can ignore the rest of this code for now.
 
 function orderPizza() {
   const sauce = 'marinara'
@@ -48,12 +48,12 @@ Let’s first look at an example of **function scope:**
 ```
 let pizzaDough = 'brooklyn style'
 
-// sauce is NOT visible here (sauce's outer context). Remember, this is global scope.
+// The variable sauce is NOT visible here (sauce's outer context). Remember, this context is global scope.
 
 function orderPizza() {
   const sauce = 'marinara'
 
-  // sauce is defined and visible in the function orderPizza. The variable sauce is not visible in it's outer context.
+  // The variable sauce is defined and visible in the function orderPizza. The variable sauce is not visible in it's outer context.
 
   function pizzaToppings() {
     const cheese = 'mozzarella'
@@ -70,10 +70,10 @@ function orderPizza() {
 orderPizza();
 ```
 
-Before we look at an example of **block scope**, I would first like to breifly discuss the ***scope chain*** in JS. 
+Before we look at an example of block scope, I would first like to breifly discuss the ***scope chain*** in JS. 
 When resolving variables, inner functions first look at their own scope. If the variable is not assigned locally (inside the aforementioned inner function's scope), then JS will look at the outer context of said function for the variable's value. This process of continuously checking *outer context* when needed is the ***scope chain***. 
 
-Earlier we saw that variables defined in **global scope** are "visible" anywhere in the application file. It is beacuase of the scope chain that this is true! A final note on the scope chain: scope chaining is unidirectional. This means that JS will chain in only one direction; from inner most context (**function scope** in the example code below) to outer most context (always **global scope**). Check out the image below for a visual representation of scope and scope chain before you look at the code again.
+Earlier we saw that variables defined in **global scope** are "visible" anywhere in the application file. It is beacuase of the scope chain that this is true! A final note on the scope chain: scope chaining is unidirectional. This means that JS will chain in only one direction; from *inner most context* (**function scope** in the example code) to *outer most context* (always **global scope**). Check out the image below for a visual representation of scope and think about scope chain before you look at the example code again.
 
 ![](https://i.imgur.com/CGnMgx7m.png)
 
