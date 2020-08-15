@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Chasing dreams in the face of fear - Do it."
-date:       2020-08-15 02:52:01 +0000
+date:       2020-08-14 22:52:02 -0400
 permalink:  chasing_dreams_in_the_face_of_fear_-_do_it
 ---
 
